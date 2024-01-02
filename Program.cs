@@ -4,47 +4,75 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _2_DataTypes
+namespace _3_Operators
 {
     class Program
     {
         static void Main(string[] args)
         {
-            bool b1 = true;
-            Console.WriteLine(b1);
-            Console.WriteLine(sizeof(bool));
+            int i = 10, j = 10;
+            Console.WriteLine(i); // 10
 
-            byte i1 = 10;
-            Console.WriteLine(i1); // 10
-            Console.WriteLine(sizeof(byte)); // 1
-            Console.WriteLine(byte.MinValue); // 0
-            Console.WriteLine(byte.MaxValue); // 255
+            i = 20;
+            Console.WriteLine(i); // 20
 
-            short i2 = 10;
-            Console.WriteLine($"{i2} : {sizeof(short)} : {short.MinValue} : {short.MaxValue} ");
+            int a = i + j;
+            Console.WriteLine(a); // 30
 
-            int i3 = 10;
-            Console.WriteLine($"{i3} : {sizeof(int)} : {int.MinValue} : {int.MaxValue}");
+            int s = i - j;
+            Console.WriteLine(s); // 10
 
-            long i4 = 12;
-            Console.WriteLine($"{i4} : {sizeof(long)} : {long.MinValue} : {long.MaxValue}");
+            int m = i * j;
+            Console.WriteLine(m); // 200
 
-            float f1 = 10.5f;
-            Console.WriteLine($"{f1} : {sizeof(float)} : {float.MinValue} : {float.MaxValue} ");
+            int d = i / j;
+            Console.WriteLine(d); // 2
 
-            double f2 = 10.5;
-            Console.WriteLine($"{f2} : {sizeof(double)} : {double.MinValue} : {double.MaxValue}");
+            int mo = 5 % 2;
+            Console.WriteLine(mo); // 1
 
-            decimal f3 = 31223585237012451245645653m;
-            Console.WriteLine($"{f3} : {sizeof(decimal)} : {decimal.MinValue} : {decimal.MaxValue}");
+            // i = i + 1; // 20
+            i++;
+            Console.WriteLine(i); // 21
 
-            char div = '$';
-            Console.WriteLine(div);
-            Console.WriteLine(sizeof(char));
+            // Console.WriteLine(i++); // 21 // post increment
+            Console.WriteLine(++i); // 22 // pre increment
+            Console.WriteLine(i); // 22
 
-            string name = "V!shal";
-            Console.WriteLine(name);
-            // Console.WriteLine(sizeof(string)); // error
+
+            // compound assignment
+
+            // i = i + 5;
+            // i += 5;
+            i -= 7;
+            Console.WriteLine(i); // 15
+
+            i *= 3;
+            Console.WriteLine(i); // 45
+
+            i /= 5;
+            Console.WriteLine(i); // 9
+
+            bool result = i == j;
+            Console.WriteLine(result); // false
+
+            result = i != j;
+            Console.WriteLine(result); // true
+
+            result = i < j;
+            Console.WriteLine(result); // true
+
+            i++;
+            result = i >= j;
+            Console.WriteLine(result); // true
+
+            int k = 20;
+            result = i >= j && j > k;
+            Console.WriteLine(result); // false
+
+            result = i >= j || j > k;
+            Console.WriteLine(result); // true
+
 
             Console.ReadLine(); // to wait
         }
