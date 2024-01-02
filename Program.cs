@@ -4,49 +4,77 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _2_DataTypes
+namespace _4_StringType
 {
     class Program
     {
         static void Main(string[] args)
         {
-            bool b1 = true;
-            Console.WriteLine(b1);
-            Console.WriteLine(sizeof(bool));
-
-            byte i1 = 10;
-            Console.WriteLine(i1); // 10
-            Console.WriteLine(sizeof(byte)); // 1
-            Console.WriteLine(byte.MinValue); // 0
-            Console.WriteLine(byte.MaxValue); // 255
-
-            short i2 = 10;
-            Console.WriteLine($"{i2} : {sizeof(short)} : {short.MinValue} : {short.MaxValue} ");
-
-            int i3 = 10;
-            Console.WriteLine($"{i3} : {sizeof(int)} : {int.MinValue} : {int.MaxValue}");
-
-            long i4 = 12;
-            Console.WriteLine($"{i4} : {sizeof(long)} : {long.MinValue} : {long.MaxValue}");
-
-            float f1 = 10.5f;
-            Console.WriteLine($"{f1} : {sizeof(float)} : {float.MinValue} : {float.MaxValue} ");
-
-            double f2 = 10.5;
-            Console.WriteLine($"{f2} : {sizeof(double)} : {double.MinValue} : {double.MaxValue}");
-
-            decimal f3 = 31223585237012451245645653m;
-            Console.WriteLine($"{f3} : {sizeof(decimal)} : {decimal.MinValue} : {decimal.MaxValue}");
-
-            char div = '$';
-            Console.WriteLine(div);
-            Console.WriteLine(sizeof(char));
-
-            string name = "V!shal";
+            string name = "Vishal";
             Console.WriteLine(name);
-            // Console.WriteLine(sizeof(string)); // error
 
-            Console.ReadLine(); // to wait
+            Console.WriteLine(name.Length);
+
+            name = "       Vishal";
+            Console.WriteLine(name);
+            Console.WriteLine(name.Trim());
+
+            name = "Vishal";
+            Console.WriteLine(name.ToUpper());
+            Console.WriteLine(name.ToLower());
+
+            name = "\"Vishal\"";
+            Console.WriteLine(name); // "Vishal"
+
+            name = "\'Vishal\'";
+            Console.WriteLine(name);
+
+            name = "\\Vishal\\";
+            Console.WriteLine(name); // \Vishal\
+
+            Console.WriteLine("Vishal Pawar");
+            Console.WriteLine("Vishal\tPawar");
+            Console.WriteLine("Vishal\nPawar");
+
+            // string path = "E:\\temp\\Batch22\\Client";
+            string path = @"E:\temp\Batch22\Client";
+            Console.WriteLine(path);
+
+            string firstName = "Vihaan";
+            string lastName = "Rathod";
+            string fullName = firstName + lastName;
+            Console.WriteLine(fullName); // VihaanRathod
+
+            fullName = firstName + " " + lastName;
+            Console.WriteLine(fullName); // Vihaan Rathod
+
+            fullName = string.Concat(firstName, " ", lastName);
+            Console.WriteLine(fullName); // Vihaan Rathod
+
+            string middleName = "Vikul";
+            fullName = string.Concat(firstName + " " + middleName + " " + lastName);
+            Console.WriteLine(fullName); // Vihaan Vikul Rathod
+
+            fullName = string.Join(" ", firstName, middleName, lastName);
+            Console.WriteLine(fullName); // Vihaan Vikul Rathod
+
+            // Full Name : Vihaan Vikul Rathod
+
+            fullName = string.Join(" ", "Full", "Name", ":", firstName, middleName, lastName);
+            Console.WriteLine(fullName);
+
+            // placeholder syntax
+            fullName = string.Format("Full Name : {0} {1} {2}", firstName, middleName, lastName);
+            Console.WriteLine(fullName);
+
+            // string interpolation
+            fullName = $"Full Name : {firstName} {middleName}\t, {lastName}";
+            Console.WriteLine(fullName);
+
+            fullName = $"My Son Name Is : {firstName}";
+            Console.WriteLine(fullName);
+
+            Console.ReadLine();
         }
     }
 }
