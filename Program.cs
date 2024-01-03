@@ -4,56 +4,91 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _6_NullableTypes
+namespace _7_ConditionalStatement
 {
     class Program
     {
         static void Main(string[] args)
-        {
-            string Name = "Pravin";
-            Console.WriteLine(Name);
-            Name = null;
-            Console.WriteLine(Name);
+        { 
+            ///////////// if statement
+            int i = 10;
+            if (i == 10)
+            {
+                Console.WriteLine($"{i} : TEN");
+            }
 
 
 
-            //////////////  convert int value to null
-            int? age = null;
-
-            // Console.WriteLine(age);
-
-            bool? isDelivered = null;
-
-            DateTime? DOB = null;
-
-
-            //int? a = 10;
-            //int b = (int)a;
-            //Console.WriteLine($" a : {a}  b : {b}");
+            ////////// if else statement
+            ///
+            i = 11;
+            if (i == 10)
+            {
+                Console.WriteLine($"{i} : TEN");
+            }
+            else
+            {
+                Console.WriteLine($"{i} : NOT TEN");
+            }
 
 
 
-            ////////////   to convert nullable type to non-nullable type
+            i = 10;
+            if (i == 10)
+            {
+                Console.WriteLine($"{i} : TEN");
+            }
+            else
+            {
+                Console.WriteLine($"{i} : NOT TEN");
+            }
+
+
+            ////////////////
+            ///if-else if-else
+
+            ///
+            i = 200;
+            if (i == 10)
+            {
+                Console.WriteLine($"{i} : TEN");
+            }
+            else if (i == 20)
+            {
+                Console.WriteLine($"{i} : TWENTY");
+            }
+            else if (i == 30)
+            {
+                Console.WriteLine($"{i} : THIRTY");
+            }
+            else
+            {
+                Console.WriteLine($"{i} : NOT TEN,TWENTY OR THIRTY");
+            }
+
+
+
+
+            /////////////////////////////
+            ///switch statements
             ///
 
-            int? a = null;
-            int b = a ?? 0;
-            Console.WriteLine($" a : {a}  b : {b}");
-
-
-            //////////////////////////////////////////////////////////////////////////////////////////////////////////
-            ///
-
-            string email = "pravinmane9276@gmail.com";
-            string emailInUpper = email.ToUpper();
-            Console.WriteLine($"email : {email}\nemailInUpper : {emailInUpper}");
-
-            email = null;
-            emailInUpper = email?.ToUpper();
-            Console.WriteLine($"email : {email}\nemailInUpper : {emailInUpper}");
-
-
-
+            i = 10;
+            switch (i)
+            {
+                case 10:
+                    Console.WriteLine($"{i} : TEN");
+                    break;
+                case 20:
+                    Console.WriteLine($"{i} : TWENTY");
+                    break;
+                case 30:
+                    Console.WriteLine($"{i} : THIRTY");
+                    break;
+                default:
+                    Console.WriteLine($"{i} : NOT TEN,TWENTY OR THIRTY");
+                    break;
+            }
 
 
             Console.ReadLine();
