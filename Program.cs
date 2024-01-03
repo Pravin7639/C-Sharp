@@ -4,75 +4,74 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _4_StringType
+namespace _5_TypeConversion
 {
     class Program
     {
         static void Main(string[] args)
         {
-            string name = "Vishal";
-            Console.WriteLine(name);
+            int i = 10, j = 10;
+            Console.WriteLine(i + j); // 20
 
-            Console.WriteLine(name.Length);
+            // int => string
+            string a = i.ToString(); // int -> string
+            string b = j.ToString();
+            Console.WriteLine(a + b); // 1010
 
-            name = "       Vishal";
-            Console.WriteLine(name);
-            Console.WriteLine(name.Trim());
+            byte b1 = 10;
+            short s1 = b1; // byte -> short
+            Console.WriteLine(s1); // 10
 
-            name = "Vishal";
-            Console.WriteLine(name.ToUpper());
-            Console.WriteLine(name.ToLower());
+            float f1 = s1; // short -> float
+            Console.WriteLine(f1); // 10
 
-            name = "\"Vishal\"";
-            Console.WriteLine(name); // "Vishal"
+            // int i1 = f1; // float -> int
+            int i1 = (int)f1; // float -> int
+            Console.WriteLine(i1);
 
-            name = "\'Vishal\'";
-            Console.WriteLine(name);
+            f1 = 25.55f;
+            i1 = (int)f1;
+            Console.WriteLine(i1); // 25.55
 
-            name = "\\Vishal\\";
-            Console.WriteLine(name); // \Vishal\
+            string s = "2000";
+            // string s = "ABCD";
+            // i1 = s; // string -> int
+            i1 = Convert.ToInt32(s);
+            Console.WriteLine(i1); // 100
 
-            Console.WriteLine("Vishal Pawar");
-            Console.WriteLine("Vishal\tPawar");
-            Console.WriteLine("Vishal\nPawar");
+            s = "true";
+            bool bb = Convert.ToBoolean(s); // string -> bool
+            Console.WriteLine(bb);
 
-            // string path = "E:\\temp\\Batch22\\Client";
-            string path = @"E:\temp\Batch22\Client";
-            Console.WriteLine(path);
 
-            string firstName = "Vihaan";
-            string lastName = "Rathod";
-            string fullName = firstName + lastName;
-            Console.WriteLine(fullName); // VihaanRathod
+            s = "777";
+            // Parse()
+            // Parse() method throws error when string is not in correct format
+            i1 = int.Parse(s); // string -> int
+            Console.WriteLine(i1); // 777
 
-            fullName = firstName + " " + lastName;
-            Console.WriteLine(fullName); // Vihaan Rathod
+            //s = "XYZ";
+            //i1 = int.Parse(s); // runtime error
+            //Console.WriteLine(i1);
 
-            fullName = string.Concat(firstName, " ", lastName);
-            Console.WriteLine(fullName); // Vihaan Rathod
+            // TryParse() -> it handles the runtime error
+            // convert and return conversion status along with converted value
+            // in case of runtime error it returns false, default value as output
+            // default value of bool is false
+            // default value of int is 0
+            // default value of string is null
 
-            string middleName = "Vikul";
-            fullName = string.Concat(firstName + " " + middleName + " " + lastName);
-            Console.WriteLine(fullName); // Vihaan Vikul Rathod
+            s = "2000";
+            bb = int.TryParse(s, out i1);
+            Console.WriteLine($"Status : {bb} Result : {i1}");
 
-            fullName = string.Join(" ", firstName, middleName, lastName);
-            Console.WriteLine(fullName); // Vihaan Vikul Rathod
+            s = "XYZ";
+            bb = int.TryParse(s, out i1);
+            Console.WriteLine($"Status : {bb} Result : {i1}"); // false, 0
 
-            // Full Name : Vihaan Vikul Rathod
-
-            fullName = string.Join(" ", "Full", "Name", ":", firstName, middleName, lastName);
-            Console.WriteLine(fullName);
-
-            // placeholder syntax
-            fullName = string.Format("Full Name : {0} {1} {2}", firstName, middleName, lastName);
-            Console.WriteLine(fullName);
-
-            // string interpolation
-            fullName = $"Full Name : {firstName} {middleName}\t, {lastName}";
-            Console.WriteLine(fullName);
-
-            fullName = $"My Son Name Is : {firstName}";
-            Console.WriteLine(fullName);
+            decimal x = 10.52m;
+            long l = (long)x; // decimal -> long
+            Console.WriteLine(l); // 10
 
             Console.ReadLine();
         }
