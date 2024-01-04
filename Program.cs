@@ -4,190 +4,311 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _8_ConditionalStatementExample
+namespace _8_LoopingStatement
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Please enter a First number");
-            int first = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Please enter a Second number");
-            int second = int.Parse(Console.ReadLine());
-
-            Console.WriteLine("Please enter a third number");
-            int third = int.Parse(Console.ReadLine());
-
-            Console.WriteLine($"You entered : {first} {second} {third}");
-
-            #region if else block
-
-            //if (first>second)
+            #region While Loop
+            //int i = 1;
+            //while(i <= 10){
+            //    Console.Write($"{i} ");
+            //    i++;
+            //}
+            //Console.WriteLine();
+            //int j = 1;
+            //while (j <= 10)
             //{
-            //    if (first > third)
+            //    Console.Write("* ");
+            //    j++;
+            //}
+
+            //int k = 1;
+            //while (k <= 0)
+            //{
+            //    Console.Write($"{k} ");
+            //    k++;
+            //}
+
+
+
+
+            #endregion While Loop
+
+
+
+            #region Do While Loop
+
+            //int i = 1;
+            //do
+            //{
+            //    Console.Write($"{i} ");
+            //    i++;
+            //}
+            //while (i <= 10);
+
+            //Console.WriteLine();
+
+
+            //int j = 1;
+            //do
+            //{
+            //    Console.Write($"{j} ");
+            //    j++;
+            //}
+            //while (j <= 0);
+
+            #endregion Do While Loop
+
+
+
+            #region For Loop
+
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    Console.Write("* ");
+            //}
+
+            //Console.WriteLine();
+
+            //for (int j = 1; j <= 10; j++)
+            //{
+            //    Console.Write(j+ " ");
+            //}
+
+            #endregion For Loop
+
+
+
+            #region Square Pattern
+            //for(int i = 1; i <= 5; i++)
+            //{
+            //    for (int j = 1; j <= 5; j++)
             //    {
-            //        Console.WriteLine($"{first} is greater number");
+            //        Console.Write("* ");
             //    }
-            //    else
+            //    Console.WriteLine();
+            //}
+
+            #endregion Square  Pattern
+
+
+
+
+            #region Hollow Square Pattern
+            // int n=5;
+            //for (int i = 1; i <= n; i++)
+            //{
+            //    for (int j = 1; j <= n; j++)
             //    {
-            //        Console.WriteLine($"{third} is greater number");
+            //        if (i == 1 && j <= n || j == 1 && i <= n || i==n && j<=n || j==n && i<=n)
+            //        {
+            //            Console.Write("* ");
+            //        }
+            //        else
+            //        {
+            //            Console.Write("  ");
+            //        }
             //    }
+            //    Console.WriteLine();
             //}
 
-            //else if (second > first)
+            #endregion Hollow Square Pattern
+
+
+
+            #region Right Angle
+            //for (int i = 1; i <= 5; i++)
             //{
-            //    if (second > third)
+            //    for(int j = 1; j <= i; j++)
             //    {
-            //        Console.WriteLine($"{second} is greater number");
+            //        Console.Write("* ");
             //    }
-            //    else
+            //    Console.WriteLine();
+            //}
+
+            ////////////////////////////////////////////////////////////////////////
+            ////////////////////////////////////////////////////////////////////
+            ///
+
+            //for(int i = 1; i <= 5; i++)
+            //{
+            //    for(int j = 1; j <= i; j++)
             //    {
-            //        Console.WriteLine($"{third} is greater number");
+            //        Console.Write(j + " ");
             //    }
+            //    Console.WriteLine();
             //}
-            //else
+
+
+
+
+
+            #endregion Right Angle
+
+
+
+            #region Right Angle Reverse
+            //for (int i = 5; i >= 1; i--)
             //{
-            //    if (first == third)
+            //    for(int j = 1; j < i; j++)
             //    {
-            //        Console.WriteLine($"{first} {second} {third} are equal");
+            //        Console.Write("  ");
             //    }
 
-            //    else if (first > third)
+            //    for(int k = 5; k >= i; k--)
             //    {
-            //        Console.WriteLine($"{first} and {second} is greater number");
+            //        Console.Write("* ");
             //    }
-            //    else
-            //    {
-            //        Console.WriteLine($"{third} is greater number");
-            //    }
-            //}
+            //    Console.WriteLine();
+        
 
-            #endregion if else block
-
-            #region ternary operator
-
-            //int number = (first > second) ?
-            //    ((first > third) ? first : third) :
-            //    (second > third) ? second : third;
-
-            //Console.WriteLine($"{number} is greater number");
-
-            #endregion ternary operator
-
-
-            //in input is divisible by 3 then print THREE
-            //in input is divisible by 5 then print FIVE
-            //in input is divisible by 3 and 5 then print THREEFIVE
-
-            #region divisible by 3 & 5 
-
-            //Console.WriteLine("Please enter a number");
-            //int num = int.Parse(Console.ReadLine());
-
-            //if(num % 3 == 0 && num % 5 == 0)
-            //{
-            //    Console.WriteLine("THREEFIVE ");
-            //}
-            //else if (num % 3 == 0)
-            //{
-            //    Console.WriteLine(" THREE ");
-            //}
-            //else if (num % 5 == 0)
-            //{
-            //    Console.WriteLine(" FIVE ");
-            //}
-            //else
-            //{
-            //    Console.WriteLine("INVALID NUMBER");
-            //}
-
-            #endregion divisible by 3 & 5 
+        #endregion Right Angle Reverse
 
 
 
-            #region EVEN/ODD
-            //Console.WriteLine("Please enter a number");
-            //int num = int.Parse(Console.ReadLine());
+        #region Reverse Right Angled Triangled
 
-            //if (num % 2 == 0)
-            //{
-            //    Console.WriteLine("EVEN");
-            //}
-            //else
-            //{
-            //    Console.WriteLine("ODD");
-            //}
-
-            //string result = (num % 2 == 0) ? "EVEN" : "ODD";
-
-            //Console.WriteLine($"{num} is {result} number");
-            #endregion EVEN/ODD
+        //for (int i = 5; i >= 1; i--)
+        //{
+        //    for (int j = 1; j <= i; j++)
+        //    {
+        //        Console.Write(j + " ");
+        //    }
+        //    Console.WriteLine();
+        //}
 
 
-            #region GRADE
-            //Console.WriteLine("Please enter a Grade");
-            //char grade = char.Parse(Console.ReadLine().ToUpper());
+        /////////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////
+        ///
 
-            ////if(grade == 'A')
-            ////{
-            ////    Console.WriteLine($"{grade} : Distinction");
-            ////}
-            ////else if (grade == 'B')
-            ////{
-            ////    Console.WriteLine($"{grade} : First Class");
-            ////}
-            ////else if (grade == 'C')
-            ////{
-            ////    Console.WriteLine($"{grade} : Second Class");
-            ////}
-            ////else if (grade == 'D')
-            ////{
-            ////    Console.WriteLine($"{grade} : Third Class");
-            ////}
-            ////else if (grade == 'F')
-            ////{
-            ////    Console.WriteLine($"{grade} : Fail");
-            ////}
-            ////else
-            ////{
-            ////    Console.WriteLine($"{grade} : Invalid Grade");
-            ////}
+        //for (int i = 5; i >= 1; i--)
+        //{
+        //    for (int j = 1; j <= i; j++)
+        //    {
+        //        Console.Write("* ");
+        //    }
+        //    Console.WriteLine();
+        //}
 
-
-            //switch (grade)
-            //{
-            //    case 'A':
-            //        Console.WriteLine($"{grade} : First Class");
-            //        break;
-            //    case 'B':
-            //        Console.WriteLine($"{grade} : Second Class");
-            //        break;
-            //    case 'C':
-            //        Console.WriteLine($"{grade} : Third Class");
-            //        break;
-            //    case 'F':
-            //        Console.WriteLine($"{grade} : Fail");
-            //        break;
-            //    default:
-            //        Console.WriteLine($"{grade} : Invalid Grade");
-            //        break;
-            //}
-
-
-            #endregion GRADE
+        #endregion Reverse Right Angled Triangled
 
 
 
+        #region Plus Pattern
+        //for (int i = 1; i <= 5; i++)
+        //{
+        //    for(int j = 1; j <= 5; j++)
+        //    {
+        //        if(j == 3 && i <=5   || i==3 && j <= 5)
+        //        {
+        //            Console.Write("* ");
+        //        }
+        //        else
+        //        {
+        //            Console.Write("  ");
+        //        }
+        //    }
+        //    Console.WriteLine();
+        //}
+
+        #endregion Plus Pattern
+
+
+
+        #region Random Pattern
+
+
+        //for (int i = 1; i <= 5; i++)
+        //{
+        //    for (int j = 1; j <= 5; j++)
+        //    {
+        //        if (j == 3 && i <= 5 || i == 3 && j <= 5 || i==2 && j==2 ||i==4 && j==4 || i==2 && j==4 || i==4 && j==2)
+        //        {
+        //            Console.Write("* ");
+        //        }
+        //        else
+        //        {
+        //            Console.Write("  ");
+        //        }
+        //    }
+        //    Console.WriteLine();
+        //}
+
+
+        #endregion Random Pattern
+
+
+        #region ButterFly Pattern
+
+
+        //        //for (int i = 1; i <= 11; i++)
+        //        //{
+        //        //    for (int j = 1; j <= 11; j++)
+        //        //    {
+        //        //        if (j == 1 && i <= 11 || j == 2 && i+1 <= 10 || j == 3 && i + 2 <= 9 || j == 4 && i + 3 <= 8 || j == 5 && i + 4 <= 7 || i == 6 && j == 6
+        //        //            || j == 11 && i <= 11 || j == 10 && i + 1 <= 10 || j == 9 && i + 2 <= 9 || j == 8 && i + 3 <= 8 || j == 7 && i + 4 <= 7)
+        //        //        {
+        //        //            Console.WriteLine("* ");
+        //        //        }
+        //        //        else
+        //        //        {
+        //        //            Console.WriteLine("  ");
+
+        //        //        }
+        //        //       // Console.WriteLine();
+        //        //    }
+        //    }
+
+
+
+        //    int i, j, n = 5;
+        //            for (i = 1; i <= n; i++)
+        //            {
+        //                for (j = 1; j <= i; j++)
+        //                {
+        //                    Console.Write("*");
+        //                }
+        //                for (j = 1; j <= (n - i); j++)
+        //            {
+        //                Console.Write("  ");
+        //            }
+        //              for (j = 1; j <= i; j++)
+        //             {
+        //               Console.Write("*");
+        //            }
+        //             Console.WriteLine();
+        //                }
+
+        //            for (i = n - 1; i >= 1; i--)
+        //            {
+        //    for (j = 1; j <= i; j++)
+        //    {
+        //        Console.Write("*");
+        //    }
+        //    for (j = 1; j <= (n - i); j++)
+        //    {
+        //        Console.Write("  ");
+        //    }
+        //    for (j = 1; j <= i; j++)
+        //    {
+        //        Console.Write("*");
+        //    }
+        //    Console.WriteLine();
+        //}
+        //  }
+        #endregion ButterFly Pattern
 
 
 
 
 
-
-
-            Console.ReadLine();
+        Console.ReadLine();
 
         }
     }
 }
+
