@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _12_Method_constructor_class
+namespace _12_MethodsDemo
 {
     class Program
     {
@@ -12,87 +12,142 @@ namespace _12_Method_constructor_class
         {
 
 
-            ////////Simple Class and Method/////////
-            
-            Rectangle r1 = new Rectangle();
-            r1.Length = 5;
-            r1.Width = 5;
-            double area = r1.CalculateArea();
-            Console.WriteLine($"The area of ReactAngle is : {area}");
 
 
-            //////////// Constructors and Initialization////////////////
+            //  PrintA();
 
-            Person p1 = new Person("Pravin", 23);
-            Console.WriteLine($"Name : {p1.Name} Age : {p1.Age}");
+            //  PrintB("Pravin");
+            //  string b = "PRAVIN";
+            //  PrintB(b);
+
+            //  PrintC("Pravin", "Mane");
+            //  string f = "PRAVIN", l = "MANE";
+            //  PrintC(f, l);
+
+            //string result=  PrintD("Pravin", "Mane");
+            //  Console.WriteLine($"PrintD result : FULLNAME : {result}");
+
+            //  PrintF(true);
+            //  PrintF(false);
+
+            //  int[] nums = new int[] { 12, 12, 12, 12, 12, 12, 12 };
+            //  PrintG(nums);
 
 
+            Console.WriteLine("Please enter a number");
+            int m = int.Parse(Console.ReadLine());
 
-            /////////////// Method Overloading//////////////
-            Calculator c1 = new Calculator();
-            int sum1 = c1.Add(5, 5);
-            int sum2 = c1.Add(5, 5, 5);
+            for (int i = 2; i <= m; i++)
+            {
+                if (isPrime(i))
+                {
+                    Console.Write(i + " ");
 
-            Console.WriteLine($"Sum of two numbers is : {sum1}");
-            Console.WriteLine($"Sum of three numbers is : {sum2}");
+                }
 
-
+            }
 
 
             Console.ReadLine();
         }
-    }
+
+        //  //// 1... Method without return and without Parameter
+
+        //    static void PrintA()
+        //    {
+        //        Console.WriteLine($"PrintA() : Method called");
+        //    }
+
+
+        //    ///// 2... Method without return and with Parameter
+
+        //static void PrintB(string name)
+        //    {
+        //        Console.WriteLine($"PrintB() : Hello, {name}");
+        //    }
+
+
+        /////// 3.....Method without return and Multiple Parameter
+        /////
+
+        //    static void PrintC (string fn, string ln)
+        //    {
+        //        Console.WriteLine($"PrintC : Fullname : {fn} {ln} ");
+        //    }
 
 
 
-    public class Rectangle
-    {
-        public double Length;
-        public double Width;
 
-        public double CalculateArea()
+        //    ///////4.....Method with return and with Parameter
+
+
+        //    static string PrintD (string fn, string ln)
+        //    {
+        //        return fn + " " + ln;
+        //    }
+
+        ////////// 5....Return statement in void....
+        /////
+
+        //    static void PrintF(bool isConfirmed)
+        //    {
+        //        if (!isConfirmed)
+        //        {
+        //            return;
+        //        }
+        //        Console.WriteLine($"PrintE ({isConfirmed}) : Seesion Allowed ");
+        //    }
+
+
+
+        //    ///////////// 6.... Sum of Array
+        //    ///
+        //     static void PrintG (int[] nums)
+        //    {
+        //        if(nums !=null && nums.Length > 0)
+        //        {
+        //            int sum = 0;
+        //            for (int i = 0; i < nums.Length; i++)
+        //            {
+        //                sum += nums[i];
+        //            }
+        //            Console.WriteLine($" PrintG : Sum Of Array :{sum} ");
+        //        }
+        //        else
+        //        {
+        //            Console.WriteLine("No Number To Add");
+        //        }
+        //    }
+
+
+
+        static bool isPrime(int n)
         {
-            return Length * Width;
+            int count = 1;
+            for (int i = 2; i <= n; i++)
+            {
+                if (n % i == 0)
+                {
+                    count++;
+                }
+            }
+            if (count == 2)
+            {
+                return true;
 
+            }
+            else
+            {
+                return false;
+            }
         }
+
+
+
+
+
+
+
+
     }
-
-
-    public class Person
-    {
-        public string Name;
-        public int Age;
-
-
-        public Person(string name, int age)
-        {
-            this.Name = name;
-            this.Age = age;
-
-        }
-    }
-
-
-
-
-    public class Calculator
-    {
-        public int Add(int a, int b)
-        {
-            return a + b;
-        }
-
-        public int Add(int a, int b, int c)
-        {
-            return a + b + c;
-
-        }
-    }
-
-
-
-
-
-
-
 }
