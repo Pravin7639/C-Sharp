@@ -4,154 +4,271 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _10_Array
+namespace _11_ArrayExample
 {
     class Program
     {
         static void Main(string[] args)
         {
 
+            #region multiDiamentional Array
+            ///MultiDiamentional Array
 
 
-            int[] fees = new int[3];
-            fees[0] = 20000;
-            fees[1] = 15000;
-            fees[2] = 25000;
-            for (int i = 0; i < fees.Length; i++)
+            int[,] num = new int[3, 3];
+            //int[][] num = new int[3][3];
+
+            for (int i = 0; i < 3; i++)
             {
-                Console.Write($"Number of Items : {fees[i]} ");
-            }
-
-            Console.WriteLine();
-
-            string[] name = new string[] { "Pravin", "Pawan", "Ram", "Ravan" };
-
-            Console.Write($"Length of string :{name.Length}");
-
-            for (int j = 0; j < name.Length; j++)
-            {
-                Console.WriteLine($"names : {name[j]}");
-            }
-
-
-            //int[] nums = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-
-
-
-
-
-            ///////////////////Creating Array Of Empty 
-            ///
-
-            string[] email = null;
-            email = new string[] { " p@p.com", "args@a.com", "k@k.com", "m@m.com", "s@s.com" };
-
-            Console.WriteLine(email.Length);
-
-
-
-            //////////////////// Reversing Array
-            ///
-
-            int[] num = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-            Console.WriteLine("orignal array");
-
-            for (int k = num.Length - 1; k >= 0; k--)
-            {
-                Console.Write(num[k] + " ");
-            }
-
-
-            Console.WriteLine();
-
-            ////////////find highest numbe from array
-            ///
-
-            int[] n = new int[] { 12, 21, 32, 23, 43, 34, 45, 45, 56, 67, 99 };
-
-            int max = n[0];
-            for (int l = 0; l < n.Length; l++)
-            {
-                if (max < n[l])
+                for (int j = 0; j < 3; j++)
                 {
-                    max = n[l];
+                    Console.Write($"{i}{j} ");
+                }
+                Console.WriteLine();
+            }
+            #endregion multiDiamentional Array
+
+
+
+
+            #region get corner elements
+            // to get corner elements of multidiamentional array
+
+            int[,] n = new int[5, 5];
+
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    if (i == j || j <= i)
+                    {
+                        Console.Write($"{i}{j} ");
+                    }
+                    else
+                    {
+                        Console.Write("  ");
+                    }
+                }
+                Console.WriteLine();
+            }
+
+            #endregion get corner elements
+
+
+
+            #region max number
+            //find maximum element of an array
+            int[] num1 = new int[] { 5, 10, 3, 8, 15 };
+
+            int max = num1[0];
+            for (int i = 0; i < num1.Length; i++)
+            {
+
+                if (num1[i] > max)
+                {
+                    max = num1[i];
                 }
 
             }
             Console.WriteLine(max);
 
+            #endregion max number
 
 
 
-            ///////////////////// Reverse Input String 
-            ///
+            #region sum of array
 
-            Console.WriteLine("Please enter a name");
-            string nam = Console.ReadLine();
+            //sum of given array
 
-            string reverse = string.Empty;
-
-            for (int o = nam.Length - 1; o >= 0; o--)
+            int[] num2 = new int[] { 5, 10, 3, 8, 15 };
+            int sum = 0;
+            for (int i = 0; i < num2.Length; i++)
             {
-                reverse += nam[o];
+                sum += num2[i];
+            }
+            Console.WriteLine(sum);
+
+            #endregion sum of array
+
+
+
+            #region reverse of array
+            ////reverse of array
+
+            //int[] num = new int[] { 5, 10, 3, 8, 15 };
+            ////////Array.Reverse(num);
+            ////////Console.WriteLine(string.Join(", ",num));
+
+            string[] num3 = new string[] { "Pravin", "Pawan", "Ram", "Ravan" };
+
+
+            for (int i = num3.Length - 1; i >= 0; i--)
+            {
+                Console.Write(num3[i] + ", ");
             }
 
-            Console.WriteLine(reverse);
+            #endregion rreverse of array 
 
 
 
-            //////////////////////// Reverse Words IN Sentence
-            ///
+            #region Finding Average Number
+            //Find Average Element Of Array
 
-            Console.WriteLine("Please Enter A Sentence");
-            string sentence = Console.ReadLine();
+            int[] num4 = new int[] { 5, 10, 3, 8, 15 };
 
-            string[] words = sentence.Split(new char[] { ' ' });
+            ////double avg = num.Average();
+            ////Console.WriteLine(avg);
 
-            Console.WriteLine("output : ");
-
-            for (int p = words.Length - 1; p >= 0; p--)
+            double sum1 = 0;
+            for (int i = 0; i < num.Length; i++)
             {
-                Console.Write($"{words[p]} ");
+                sum1 += num4[i];
+            }
+            double avg = sum1 / (num.Length);
+
+            Console.WriteLine(sum1);
+            Console.WriteLine(avg);
+
+
+            #endregion
+
+
+
+            #region Search For Value
+            //Search For An Element
+
+            int[] num5 = new int[] { 5, 10, 8, 3, 15 };
+
+            for (int i = 0; i < num5.Length; i++)
+            {
+                if (num5[i] == 8)
+                {
+                    Console.WriteLine("Cought");
+                    break;
+                }
+
             }
 
-            Console.WriteLine();
+            #endregion Search For Value
 
-            ////////////////////////////////Reversing Sentence
-            ///
 
-            Console.WriteLine("Please Enter A Sentence");
-            string sentences = Console.ReadLine();
 
-            string ReversedSentences = string.Empty;
-            for (int q = sentences.Length - 1; q >= 0; q--)
+            #region Remove Element From Array
+           // Remove Element From Array
+            int[] num6 = new int[] { 5, 10, 8, 3, 15 };
+
+            for (int i = 0; i < num6.Length; i++)
             {
-                ReversedSentences += sentences[q];
+                if (num6[i] == 8)
+                {
+                    continue;
+
+                }
+                else
+                {
+                    Console.Write(num6[i] + ", ");
+                }
+            }
+
+            #endregion Remove Element From Array
+
+
+
+            #region Count Occurence Of Element
+            ////Count Occurence Of Element
+
+            int[] num7 = new int[] { 1, 2, 3, 4, 5, 1, 2, 2, 2, 2, 2, 3 };
+
+            int count = 0;
+            for (int i = 0; i < num7.Length; i++)
+            {
+
+                if (num7[i] == 2)
+                {
+                    count++;
+
+                }
+                else
+                {
+                    continue;
+                }
 
             }
 
-            Console.WriteLine(ReversedSentences);
+            Console.WriteLine($"Occurence of Number 2 is : {count}");
+
+            #endregion Count Occurence Of Element
 
 
 
-            //////// sorting of array
-            ///
+            ////Remove Duplicate Elements
 
+            int[] num8 = new int[] { 5, 10, 8, 3, 15, 5, 3 };
 
-
-            string[] cars = { "Volvo", "BMW", "Ford", "Mazda", "BMW", "Volvo" };
-            Array.Sort(cars);
-            foreach (string i in cars)
+            int count1 = 0;
+            for (int i = 0; i < num.Length; i++)
             {
-                Console.WriteLine(i);
+                for (int j = i + 1; j < num.Length; j++)
+                {
+                    if (num8[i] == num8[j])
+                    {
+                        count1++;
+                    }
+
+                }
+                if (count1 == 1)
+                {
+                    Console.Write(num8[i] + " ");
+                }
+
+            }
+
+
+
+            #region Fibonacci series
+
+            int n1 = 0, n2 = 1;
+            Console.WriteLine("Please enter a number");
+            int num9 = int.Parse(Console.ReadLine());
+            Console.Write(n2 + " " + n2 + " ");
+
+            for (int i = 2; i < num9; i++)
+            {
+                int n3 = n1 + n2;
+                Console.Write(n3 + " ");
+
+                n1 = n2;
+                n2 = n3;
             }
 
 
 
 
+            #endregion Fibonacci series
 
 
 
+
+
+
+
+
+
+
+            #region Printing Particular element INDEX
+
+            //Printing Particular element INDEX
+
+            int[] num10 = new int[] { 5, 10, 8, 3, 15 };
+
+            for (int i = 0; i < num10.Length; i++)
+            {
+                if (num10[i] == 5)
+                {
+                    Console.WriteLine(i);
+                }
+            }
+            #endregion Printing Particular element INDEX
 
 
 
