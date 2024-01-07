@@ -1,0 +1,6 @@
+C:\Users\DELL\source\repos\Pravin45\18_Constructors\bin\Debug\18_Constructors.exe.config
+C:\Users\DELL\source\repos\Pravin45\18_Constructors\bin\Debug\18_Constructors.exe
+C:\Users\DELL\source\repos\Pravin45\18_Constructors\bin\Debug\18_Constructors.pdb
+C:\Users\DELL\source\repos\Pravin45\18_Constructors\obj\Debug\18_Constructors.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\Pravin45\18_Constructors\obj\Debug\18_Constructors.exe
+C:\Users\DELL\source\repos\Pravin45\18_Constructors\obj\Debug\18_Constructors.pdb
