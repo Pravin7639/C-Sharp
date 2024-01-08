@@ -1,0 +1,6 @@
+C:\Users\DELL\source\repos\Pravin45\25_OperatorOverLoading\bin\Debug\25_OperatorOverLoading.exe.config
+C:\Users\DELL\source\repos\Pravin45\25_OperatorOverLoading\bin\Debug\25_OperatorOverLoading.exe
+C:\Users\DELL\source\repos\Pravin45\25_OperatorOverLoading\bin\Debug\25_OperatorOverLoading.pdb
+C:\Users\DELL\source\repos\Pravin45\25_OperatorOverLoading\obj\Debug\25_OperatorOverLoading.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\Pravin45\25_OperatorOverLoading\obj\Debug\25_OperatorOverLoading.exe
+C:\Users\DELL\source\repos\Pravin45\25_OperatorOverLoading\obj\Debug\25_OperatorOverLoading.pdb
