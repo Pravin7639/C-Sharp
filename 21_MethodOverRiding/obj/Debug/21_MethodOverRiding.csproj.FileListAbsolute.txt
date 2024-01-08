@@ -1,0 +1,6 @@
+C:\Users\DELL\source\repos\Pravin45\21_MethodOverRiding\bin\Debug\21_MethodOverRiding.exe.config
+C:\Users\DELL\source\repos\Pravin45\21_MethodOverRiding\bin\Debug\21_MethodOverRiding.exe
+C:\Users\DELL\source\repos\Pravin45\21_MethodOverRiding\bin\Debug\21_MethodOverRiding.pdb
+C:\Users\DELL\source\repos\Pravin45\21_MethodOverRiding\obj\Debug\21_MethodOverRiding.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\Pravin45\21_MethodOverRiding\obj\Debug\21_MethodOverRiding.exe
+C:\Users\DELL\source\repos\Pravin45\21_MethodOverRiding\obj\Debug\21_MethodOverRiding.pdb
