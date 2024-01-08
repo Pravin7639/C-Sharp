@@ -1,0 +1,6 @@
+C:\Users\DELL\source\repos\Pravin45\23_MultipleClassInheritance\bin\Debug\23_MultipleClassInheritance.exe.config
+C:\Users\DELL\source\repos\Pravin45\23_MultipleClassInheritance\bin\Debug\23_MultipleClassInheritance.exe
+C:\Users\DELL\source\repos\Pravin45\23_MultipleClassInheritance\bin\Debug\23_MultipleClassInheritance.pdb
+C:\Users\DELL\source\repos\Pravin45\23_MultipleClassInheritance\obj\Debug\23_MultipleClassInheritance.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\Pravin45\23_MultipleClassInheritance\obj\Debug\23_MultipleClassInheritance.exe
+C:\Users\DELL\source\repos\Pravin45\23_MultipleClassInheritance\obj\Debug\23_MultipleClassInheritance.pdb
