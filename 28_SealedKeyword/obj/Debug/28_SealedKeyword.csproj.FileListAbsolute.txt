@@ -1,0 +1,6 @@
+C:\Users\DELL\source\repos\Pravin45\28_SealedKeyword\bin\Debug\28_SealedKeyword.exe.config
+C:\Users\DELL\source\repos\Pravin45\28_SealedKeyword\bin\Debug\28_SealedKeyword.exe
+C:\Users\DELL\source\repos\Pravin45\28_SealedKeyword\bin\Debug\28_SealedKeyword.pdb
+C:\Users\DELL\source\repos\Pravin45\28_SealedKeyword\obj\Debug\28_SealedKeyword.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\Pravin45\28_SealedKeyword\obj\Debug\28_SealedKeyword.exe
+C:\Users\DELL\source\repos\Pravin45\28_SealedKeyword\obj\Debug\28_SealedKeyword.pdb
