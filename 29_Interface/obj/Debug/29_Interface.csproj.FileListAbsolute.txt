@@ -1,0 +1,6 @@
+C:\Users\DELL\source\repos\Pravin45\29_Interface\bin\Debug\29_Interface.exe.config
+C:\Users\DELL\source\repos\Pravin45\29_Interface\bin\Debug\29_Interface.exe
+C:\Users\DELL\source\repos\Pravin45\29_Interface\bin\Debug\29_Interface.pdb
+C:\Users\DELL\source\repos\Pravin45\29_Interface\obj\Debug\29_Interface.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\Pravin45\29_Interface\obj\Debug\29_Interface.exe
+C:\Users\DELL\source\repos\Pravin45\29_Interface\obj\Debug\29_Interface.pdb
