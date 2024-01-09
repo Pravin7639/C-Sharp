@@ -1,0 +1,6 @@
+C:\Users\DELL\source\repos\Pravin45\27_AbstractKeyword\bin\Debug\27_AbstractKeyword.exe.config
+C:\Users\DELL\source\repos\Pravin45\27_AbstractKeyword\bin\Debug\27_AbstractKeyword.exe
+C:\Users\DELL\source\repos\Pravin45\27_AbstractKeyword\bin\Debug\27_AbstractKeyword.pdb
+C:\Users\DELL\source\repos\Pravin45\27_AbstractKeyword\obj\Debug\27_AbstractKeyword.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\Pravin45\27_AbstractKeyword\obj\Debug\27_AbstractKeyword.exe
+C:\Users\DELL\source\repos\Pravin45\27_AbstractKeyword\obj\Debug\27_AbstractKeyword.pdb
