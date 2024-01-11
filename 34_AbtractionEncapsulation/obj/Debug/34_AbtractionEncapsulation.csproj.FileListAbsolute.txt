@@ -1,0 +1,6 @@
+C:\Users\DELL\source\repos\Pravin45\34_AbtractionEncapsulation\bin\Debug\34_AbtractionEncapsulation.exe.config
+C:\Users\DELL\source\repos\Pravin45\34_AbtractionEncapsulation\bin\Debug\34_AbtractionEncapsulation.exe
+C:\Users\DELL\source\repos\Pravin45\34_AbtractionEncapsulation\bin\Debug\34_AbtractionEncapsulation.pdb
+C:\Users\DELL\source\repos\Pravin45\34_AbtractionEncapsulation\obj\Debug\34_AbtractionEncapsulation.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\Pravin45\34_AbtractionEncapsulation\obj\Debug\34_AbtractionEncapsulation.exe
+C:\Users\DELL\source\repos\Pravin45\34_AbtractionEncapsulation\obj\Debug\34_AbtractionEncapsulation.pdb
