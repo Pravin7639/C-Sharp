@@ -1,0 +1,6 @@
+C:\Users\DELL\source\repos\Pravin45\35_Properties\bin\Debug\35_Properties.exe.config
+C:\Users\DELL\source\repos\Pravin45\35_Properties\bin\Debug\35_Properties.exe
+C:\Users\DELL\source\repos\Pravin45\35_Properties\bin\Debug\35_Properties.pdb
+C:\Users\DELL\source\repos\Pravin45\35_Properties\obj\Debug\35_Properties.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\Pravin45\35_Properties\obj\Debug\35_Properties.exe
+C:\Users\DELL\source\repos\Pravin45\35_Properties\obj\Debug\35_Properties.pdb
