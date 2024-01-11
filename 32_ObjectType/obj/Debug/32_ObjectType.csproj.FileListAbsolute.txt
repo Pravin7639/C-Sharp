@@ -1,0 +1,6 @@
+C:\Users\DELL\source\repos\Pravin45\32_ObjectType\obj\Debug\32_ObjectType.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\Pravin45\32_ObjectType\bin\Debug\32_ObjectType.exe.config
+C:\Users\DELL\source\repos\Pravin45\32_ObjectType\bin\Debug\32_ObjectType.exe
+C:\Users\DELL\source\repos\Pravin45\32_ObjectType\bin\Debug\32_ObjectType.pdb
+C:\Users\DELL\source\repos\Pravin45\32_ObjectType\obj\Debug\32_ObjectType.exe
+C:\Users\DELL\source\repos\Pravin45\32_ObjectType\obj\Debug\32_ObjectType.pdb
