@@ -1,0 +1,6 @@
+C:\Users\DELL\source\repos\Pravin45\40_PartialClass\obj\Debug\40_PartialClass.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\Pravin45\40_PartialClass\bin\Debug\40_PartialClass.exe.config
+C:\Users\DELL\source\repos\Pravin45\40_PartialClass\bin\Debug\40_PartialClass.exe
+C:\Users\DELL\source\repos\Pravin45\40_PartialClass\bin\Debug\40_PartialClass.pdb
+C:\Users\DELL\source\repos\Pravin45\40_PartialClass\obj\Debug\40_PartialClass.exe
+C:\Users\DELL\source\repos\Pravin45\40_PartialClass\obj\Debug\40_PartialClass.pdb
