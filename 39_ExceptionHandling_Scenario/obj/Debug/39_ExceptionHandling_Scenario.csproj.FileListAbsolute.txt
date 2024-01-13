@@ -1,0 +1,6 @@
+C:\Users\DELL\source\repos\Pravin45\39_ExceptionHandling_Scenario\bin\Debug\39_ExceptionHandling_Scenario.exe.config
+C:\Users\DELL\source\repos\Pravin45\39_ExceptionHandling_Scenario\bin\Debug\39_ExceptionHandling_Scenario.exe
+C:\Users\DELL\source\repos\Pravin45\39_ExceptionHandling_Scenario\bin\Debug\39_ExceptionHandling_Scenario.pdb
+C:\Users\DELL\source\repos\Pravin45\39_ExceptionHandling_Scenario\obj\Debug\39_ExceptionHandling_Scenario.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\Pravin45\39_ExceptionHandling_Scenario\obj\Debug\39_ExceptionHandling_Scenario.exe
+C:\Users\DELL\source\repos\Pravin45\39_ExceptionHandling_Scenario\obj\Debug\39_ExceptionHandling_Scenario.pdb
