@@ -1,0 +1,6 @@
+C:\Users\DELL\source\repos\Pravin45\42_Enum\bin\Debug\42_Enum.exe.config
+C:\Users\DELL\source\repos\Pravin45\42_Enum\bin\Debug\42_Enum.exe
+C:\Users\DELL\source\repos\Pravin45\42_Enum\bin\Debug\42_Enum.pdb
+C:\Users\DELL\source\repos\Pravin45\42_Enum\obj\Debug\42_Enum.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\Pravin45\42_Enum\obj\Debug\42_Enum.exe
+C:\Users\DELL\source\repos\Pravin45\42_Enum\obj\Debug\42_Enum.pdb
