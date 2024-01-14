@@ -1,0 +1,6 @@
+C:\Users\DELL\source\repos\Pravin45\41_Generics\bin\Debug\41_Generics.exe.config
+C:\Users\DELL\source\repos\Pravin45\41_Generics\bin\Debug\41_Generics.exe
+C:\Users\DELL\source\repos\Pravin45\41_Generics\bin\Debug\41_Generics.pdb
+C:\Users\DELL\source\repos\Pravin45\41_Generics\obj\Debug\41_Generics.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\Pravin45\41_Generics\obj\Debug\41_Generics.exe
+C:\Users\DELL\source\repos\Pravin45\41_Generics\obj\Debug\41_Generics.pdb
