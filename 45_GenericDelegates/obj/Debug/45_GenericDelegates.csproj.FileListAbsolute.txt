@@ -1,0 +1,6 @@
+C:\Users\DELL\source\repos\Pravin45\45_GenericDelegates\bin\Debug\45_GenericDelegates.exe.config
+C:\Users\DELL\source\repos\Pravin45\45_GenericDelegates\bin\Debug\45_GenericDelegates.exe
+C:\Users\DELL\source\repos\Pravin45\45_GenericDelegates\bin\Debug\45_GenericDelegates.pdb
+C:\Users\DELL\source\repos\Pravin45\45_GenericDelegates\obj\Debug\45_GenericDelegates.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\Pravin45\45_GenericDelegates\obj\Debug\45_GenericDelegates.exe
+C:\Users\DELL\source\repos\Pravin45\45_GenericDelegates\obj\Debug\45_GenericDelegates.pdb
