@@ -1,0 +1,6 @@
+C:\Users\DELL\source\repos\Pravin45\44_MulticastDelegate\bin\Debug\44_MulticastDelegate.exe.config
+C:\Users\DELL\source\repos\Pravin45\44_MulticastDelegate\bin\Debug\44_MulticastDelegate.exe
+C:\Users\DELL\source\repos\Pravin45\44_MulticastDelegate\bin\Debug\44_MulticastDelegate.pdb
+C:\Users\DELL\source\repos\Pravin45\44_MulticastDelegate\obj\Debug\44_MulticastDelegate.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\Pravin45\44_MulticastDelegate\obj\Debug\44_MulticastDelegate.exe
+C:\Users\DELL\source\repos\Pravin45\44_MulticastDelegate\obj\Debug\44_MulticastDelegate.pdb
