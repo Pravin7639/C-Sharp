@@ -1,0 +1,6 @@
+C:\Users\DELL\source\repos\Pravin45\46_const_readonly_Keyword\bin\Debug\46_const_readonly_Keyword.exe.config
+C:\Users\DELL\source\repos\Pravin45\46_const_readonly_Keyword\bin\Debug\46_const_readonly_Keyword.exe
+C:\Users\DELL\source\repos\Pravin45\46_const_readonly_Keyword\bin\Debug\46_const_readonly_Keyword.pdb
+C:\Users\DELL\source\repos\Pravin45\46_const_readonly_Keyword\obj\Debug\46_const_readonly_Keyword.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\Pravin45\46_const_readonly_Keyword\obj\Debug\46_const_readonly_Keyword.exe
+C:\Users\DELL\source\repos\Pravin45\46_const_readonly_Keyword\obj\Debug\46_const_readonly_Keyword.pdb
