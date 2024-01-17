@@ -1,0 +1,6 @@
+C:\Users\DELL\source\repos\Pravin45\47_isasKeyword\bin\Debug\47_isasKeyword.exe.config
+C:\Users\DELL\source\repos\Pravin45\47_isasKeyword\bin\Debug\47_isasKeyword.exe
+C:\Users\DELL\source\repos\Pravin45\47_isasKeyword\bin\Debug\47_isasKeyword.pdb
+C:\Users\DELL\source\repos\Pravin45\47_isasKeyword\obj\Debug\47_isasKeyword.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\Pravin45\47_isasKeyword\obj\Debug\47_isasKeyword.exe
+C:\Users\DELL\source\repos\Pravin45\47_isasKeyword\obj\Debug\47_isasKeyword.pdb
