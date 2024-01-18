@@ -1,0 +1,6 @@
+C:\Users\DELL\source\repos\Pravin45\49_LazyLoading\bin\Debug\49_LazyLoading.exe.config
+C:\Users\DELL\source\repos\Pravin45\49_LazyLoading\bin\Debug\49_LazyLoading.exe
+C:\Users\DELL\source\repos\Pravin45\49_LazyLoading\bin\Debug\49_LazyLoading.pdb
+C:\Users\DELL\source\repos\Pravin45\49_LazyLoading\obj\Debug\49_LazyLoading.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\Pravin45\49_LazyLoading\obj\Debug\49_LazyLoading.exe
+C:\Users\DELL\source\repos\Pravin45\49_LazyLoading\obj\Debug\49_LazyLoading.pdb
