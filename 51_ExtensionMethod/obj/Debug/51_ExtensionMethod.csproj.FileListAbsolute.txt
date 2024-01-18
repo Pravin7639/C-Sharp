@@ -1,0 +1,6 @@
+C:\Users\DELL\source\repos\Pravin45\51_ExtensionMethod\bin\Debug\51_ExtensionMethod.exe.config
+C:\Users\DELL\source\repos\Pravin45\51_ExtensionMethod\bin\Debug\51_ExtensionMethod.exe
+C:\Users\DELL\source\repos\Pravin45\51_ExtensionMethod\bin\Debug\51_ExtensionMethod.pdb
+C:\Users\DELL\source\repos\Pravin45\51_ExtensionMethod\obj\Debug\51_ExtensionMethod.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\Pravin45\51_ExtensionMethod\obj\Debug\51_ExtensionMethod.exe
+C:\Users\DELL\source\repos\Pravin45\51_ExtensionMethod\obj\Debug\51_ExtensionMethod.pdb
