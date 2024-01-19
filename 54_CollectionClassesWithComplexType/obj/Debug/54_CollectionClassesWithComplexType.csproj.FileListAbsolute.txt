@@ -1,0 +1,7 @@
+C:\Users\DELL\source\repos\Pravin45\54_CollectionClassesWithComplexType\bin\Debug\54_CollectionClassesWithComplexType.exe.config
+C:\Users\DELL\source\repos\Pravin45\54_CollectionClassesWithComplexType\bin\Debug\54_CollectionClassesWithComplexType.exe
+C:\Users\DELL\source\repos\Pravin45\54_CollectionClassesWithComplexType\bin\Debug\54_CollectionClassesWithComplexType.pdb
+C:\Users\DELL\source\repos\Pravin45\54_CollectionClassesWithComplexType\obj\Debug\54_CollectionClassesWithComplexType.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\Pravin45\54_CollectionClassesWithComplexType\obj\Debug\54_CollectionClassesWithComplexType.exe
+C:\Users\DELL\source\repos\Pravin45\54_CollectionClassesWithComplexType\obj\Debug\54_CollectionClassesWithComplexType.pdb
+C:\Users\DELL\source\repos\Pravin45\54_CollectionClassesWithComplexType\obj\Debug\54_CollectionClassesWithComplexType.csproj.AssemblyReference.cache
