@@ -1,0 +1,6 @@
+C:\Users\DELL\source\repos\Pravin45\52_CollectionClaasses\bin\Debug\52_CollectionClaasses.exe.config
+C:\Users\DELL\source\repos\Pravin45\52_CollectionClaasses\bin\Debug\52_CollectionClaasses.exe
+C:\Users\DELL\source\repos\Pravin45\52_CollectionClaasses\bin\Debug\52_CollectionClaasses.pdb
+C:\Users\DELL\source\repos\Pravin45\52_CollectionClaasses\obj\Debug\52_CollectionClaasses.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\Pravin45\52_CollectionClaasses\obj\Debug\52_CollectionClaasses.exe
+C:\Users\DELL\source\repos\Pravin45\52_CollectionClaasses\obj\Debug\52_CollectionClaasses.pdb
