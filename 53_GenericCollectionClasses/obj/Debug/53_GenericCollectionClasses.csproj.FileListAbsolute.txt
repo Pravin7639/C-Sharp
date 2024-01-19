@@ -1,0 +1,6 @@
+C:\Users\DELL\source\repos\Pravin45\53_GenericCollectionClasses\bin\Debug\53_GenericCollectionClasses.exe.config
+C:\Users\DELL\source\repos\Pravin45\53_GenericCollectionClasses\bin\Debug\53_GenericCollectionClasses.exe
+C:\Users\DELL\source\repos\Pravin45\53_GenericCollectionClasses\bin\Debug\53_GenericCollectionClasses.pdb
+C:\Users\DELL\source\repos\Pravin45\53_GenericCollectionClasses\obj\Debug\53_GenericCollectionClasses.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\Pravin45\53_GenericCollectionClasses\obj\Debug\53_GenericCollectionClasses.exe
+C:\Users\DELL\source\repos\Pravin45\53_GenericCollectionClasses\obj\Debug\53_GenericCollectionClasses.pdb
