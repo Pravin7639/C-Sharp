@@ -1,0 +1,7 @@
+C:\Users\DELL\source\repos\Pravin45\55_Tuple\bin\Debug\55_Tuple.exe.config
+C:\Users\DELL\source\repos\Pravin45\55_Tuple\bin\Debug\55_Tuple.exe
+C:\Users\DELL\source\repos\Pravin45\55_Tuple\bin\Debug\55_Tuple.pdb
+C:\Users\DELL\source\repos\Pravin45\55_Tuple\obj\Debug\55_Tuple.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\Pravin45\55_Tuple\obj\Debug\55_Tuple.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\Pravin45\55_Tuple\obj\Debug\55_Tuple.exe
+C:\Users\DELL\source\repos\Pravin45\55_Tuple\obj\Debug\55_Tuple.pdb
