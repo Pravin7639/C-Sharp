@@ -1,0 +1,7 @@
+C:\Users\DELL\source\repos\Pravin45\56_Struct\bin\Debug\56_Struct.exe.config
+C:\Users\DELL\source\repos\Pravin45\56_Struct\bin\Debug\56_Struct.exe
+C:\Users\DELL\source\repos\Pravin45\56_Struct\bin\Debug\56_Struct.pdb
+C:\Users\DELL\source\repos\Pravin45\56_Struct\obj\Debug\56_Struct.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\Pravin45\56_Struct\obj\Debug\56_Struct.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\Pravin45\56_Struct\obj\Debug\56_Struct.exe
+C:\Users\DELL\source\repos\Pravin45\56_Struct\obj\Debug\56_Struct.pdb
