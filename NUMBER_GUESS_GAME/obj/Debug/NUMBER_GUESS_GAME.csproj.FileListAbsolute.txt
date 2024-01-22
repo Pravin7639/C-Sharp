@@ -1,0 +1,6 @@
+C:\Users\DELL\source\repos\Pravin45\NUMBER_GUESS_GAME\bin\Debug\NUMBER_GUESS_GAME.exe.config
+C:\Users\DELL\source\repos\Pravin45\NUMBER_GUESS_GAME\bin\Debug\NUMBER_GUESS_GAME.exe
+C:\Users\DELL\source\repos\Pravin45\NUMBER_GUESS_GAME\bin\Debug\NUMBER_GUESS_GAME.pdb
+C:\Users\DELL\source\repos\Pravin45\NUMBER_GUESS_GAME\obj\Debug\NUMBER_GUESS_GAME.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\Pravin45\NUMBER_GUESS_GAME\obj\Debug\NUMBER_GUESS_GAME.exe
+C:\Users\DELL\source\repos\Pravin45\NUMBER_GUESS_GAME\obj\Debug\NUMBER_GUESS_GAME.pdb
