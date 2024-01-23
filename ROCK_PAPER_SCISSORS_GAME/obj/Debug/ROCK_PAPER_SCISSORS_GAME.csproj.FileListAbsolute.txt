@@ -1,0 +1,6 @@
+C:\Users\DELL\source\repos\Pravin45\ROCK_PAPER_SCISSORS_GAME\bin\Debug\ROCK_PAPER_SCISSORS_GAME.exe.config
+C:\Users\DELL\source\repos\Pravin45\ROCK_PAPER_SCISSORS_GAME\bin\Debug\ROCK_PAPER_SCISSORS_GAME.exe
+C:\Users\DELL\source\repos\Pravin45\ROCK_PAPER_SCISSORS_GAME\bin\Debug\ROCK_PAPER_SCISSORS_GAME.pdb
+C:\Users\DELL\source\repos\Pravin45\ROCK_PAPER_SCISSORS_GAME\obj\Debug\ROCK_PAPER_SCISSORS_GAME.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\Pravin45\ROCK_PAPER_SCISSORS_GAME\obj\Debug\ROCK_PAPER_SCISSORS_GAME.exe
+C:\Users\DELL\source\repos\Pravin45\ROCK_PAPER_SCISSORS_GAME\obj\Debug\ROCK_PAPER_SCISSORS_GAME.pdb
