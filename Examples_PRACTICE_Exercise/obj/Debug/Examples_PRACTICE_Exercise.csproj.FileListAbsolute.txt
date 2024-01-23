@@ -1,0 +1,6 @@
+C:\Users\DELL\source\repos\Pravin45\Examples_PRACTICE_Exercise\bin\Debug\Examples_PRACTICE_Exercise.exe.config
+C:\Users\DELL\source\repos\Pravin45\Examples_PRACTICE_Exercise\bin\Debug\Examples_PRACTICE_Exercise.exe
+C:\Users\DELL\source\repos\Pravin45\Examples_PRACTICE_Exercise\bin\Debug\Examples_PRACTICE_Exercise.pdb
+C:\Users\DELL\source\repos\Pravin45\Examples_PRACTICE_Exercise\obj\Debug\Examples_PRACTICE_Exercise.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\Pravin45\Examples_PRACTICE_Exercise\obj\Debug\Examples_PRACTICE_Exercise.exe
+C:\Users\DELL\source\repos\Pravin45\Examples_PRACTICE_Exercise\obj\Debug\Examples_PRACTICE_Exercise.pdb
