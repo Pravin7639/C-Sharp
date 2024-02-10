@@ -1,0 +1,7 @@
+C:\Users\DELL\source\repos\B22PracticeDemo\1_Polymorphism\bin\Debug\1_Polymorphism.exe.config
+C:\Users\DELL\source\repos\B22PracticeDemo\1_Polymorphism\bin\Debug\1_Polymorphism.exe
+C:\Users\DELL\source\repos\B22PracticeDemo\1_Polymorphism\bin\Debug\1_Polymorphism.pdb
+C:\Users\DELL\source\repos\B22PracticeDemo\1_Polymorphism\obj\Debug\1_Polymorphism.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\B22PracticeDemo\1_Polymorphism\obj\Debug\1_Polymorphism.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\B22PracticeDemo\1_Polymorphism\obj\Debug\1_Polymorphism.exe
+C:\Users\DELL\source\repos\B22PracticeDemo\1_Polymorphism\obj\Debug\1_Polymorphism.pdb
