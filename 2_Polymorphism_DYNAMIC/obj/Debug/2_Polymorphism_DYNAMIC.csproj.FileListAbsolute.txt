@@ -1,0 +1,6 @@
+C:\Users\DELL\source\repos\B22PracticeDemo\2_Polymorphism_DYNAMIC\bin\Debug\2_Polymorphism_DYNAMIC.exe.config
+C:\Users\DELL\source\repos\B22PracticeDemo\2_Polymorphism_DYNAMIC\bin\Debug\2_Polymorphism_DYNAMIC.exe
+C:\Users\DELL\source\repos\B22PracticeDemo\2_Polymorphism_DYNAMIC\bin\Debug\2_Polymorphism_DYNAMIC.pdb
+C:\Users\DELL\source\repos\B22PracticeDemo\2_Polymorphism_DYNAMIC\obj\Debug\2_Polymorphism_DYNAMIC.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\B22PracticeDemo\2_Polymorphism_DYNAMIC\obj\Debug\2_Polymorphism_DYNAMIC.exe
+C:\Users\DELL\source\repos\B22PracticeDemo\2_Polymorphism_DYNAMIC\obj\Debug\2_Polymorphism_DYNAMIC.pdb
