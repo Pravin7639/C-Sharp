@@ -1,0 +1,7 @@
+C:\Users\DELL\source\repos\B22PracticeDemo\3.0__Interface\bin\Debug\3.0__Interface.exe.config
+C:\Users\DELL\source\repos\B22PracticeDemo\3.0__Interface\bin\Debug\3.0__Interface.exe
+C:\Users\DELL\source\repos\B22PracticeDemo\3.0__Interface\bin\Debug\3.0__Interface.pdb
+C:\Users\DELL\source\repos\B22PracticeDemo\3.0__Interface\obj\Debug\3.0__Interface.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\B22PracticeDemo\3.0__Interface\obj\Debug\3.0__Interface.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\B22PracticeDemo\3.0__Interface\obj\Debug\3.0__Interface.exe
+C:\Users\DELL\source\repos\B22PracticeDemo\3.0__Interface\obj\Debug\3.0__Interface.pdb
