@@ -1,0 +1,7 @@
+C:\Users\DELL\source\repos\B22PracticeDemo\3_Abstract_Keyword\bin\Debug\3_Abstract_Keyword.exe.config
+C:\Users\DELL\source\repos\B22PracticeDemo\3_Abstract_Keyword\bin\Debug\3_Abstract_Keyword.exe
+C:\Users\DELL\source\repos\B22PracticeDemo\3_Abstract_Keyword\bin\Debug\3_Abstract_Keyword.pdb
+C:\Users\DELL\source\repos\B22PracticeDemo\3_Abstract_Keyword\obj\Debug\3_Abstract_Keyword.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\B22PracticeDemo\3_Abstract_Keyword\obj\Debug\3_Abstract_Keyword.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\B22PracticeDemo\3_Abstract_Keyword\obj\Debug\3_Abstract_Keyword.exe
+C:\Users\DELL\source\repos\B22PracticeDemo\3_Abstract_Keyword\obj\Debug\3_Abstract_Keyword.pdb
