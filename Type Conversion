@@ -1,0 +1,39 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Implicit conversion
+        int intValue = 10;
+        double doubleValue = intValue; // Implicitly converted from int to double
+        Console.WriteLine($"Implicit conversion: int to double: {doubleValue}");
+
+        // Explicit conversion
+        double anotherDoubleValue = 20.5;
+        int anotherIntValue = (int)anotherDoubleValue; // Explicitly converted from double to int
+        Console.WriteLine($"Explicit conversion: double to int: {anotherIntValue}");
+
+        // Conversion using Convert class
+        string stringValue = "123";
+        int parsedIntValue = Convert.ToInt32(stringValue); // Convert string to int
+        Console.WriteLine($"String to int conversion: {parsedIntValue}");
+
+        // Parsing a string
+        string numberString = "25";
+        int parsedNumber = int.Parse(numberString);
+        Console.WriteLine($"String parsing: {parsedNumber}");
+
+        // TryParse method
+        string numericString = "50";
+        int result;
+        if (int.TryParse(numericString, out result))
+        {
+            Console.WriteLine($"TryParse result: {result}");
+        }
+        else
+        {
+            Console.WriteLine("Unable to parse the string.");
+        }
+    }
+}
