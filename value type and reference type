@@ -1,0 +1,19 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Value type example
+        int a = 10;
+        int b = a; // Value of 'a' copied to 'b'
+        b = 20; // Modifying 'b' does not affect 'a'
+        Console.WriteLine($"a: {a}, b: {b}");
+
+        // Reference type example
+        int[] array1 = new int[] { 1, 2, 3 };
+        int[] array2 = array1; // Reference to the same array
+        array2[0] = 10; // Modifying 'array2' affects 'array1'
+        Console.WriteLine($"array1[0]: {array1[0]}, array2[0]: {array2[0]}");
+    }
+}
