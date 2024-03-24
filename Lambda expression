@@ -1,0 +1,29 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        // Lambda expression to square a number
+        Func<int, int> square = x => x * x;
+
+       
+        int result = square(5); // result will be 25
+        Console.WriteLine("Square of 5 is: " + result);
+
+        // Lambda expression with multiple parameters
+        Func<int, int, int> add = (x, y) => x + y;
+
+       
+        int sum = add(3, 5); // sum will be 8
+        Console.WriteLine("Sum of 3 and 5 is: " + sum);
+
+        // Lambda expression with variable capture
+        int factor = 2;
+        Func<int, int> multiplyByFactor = x => x * factor;
+
+       
+        int product = multiplyByFactor(3); // product will be 6
+        Console.WriteLine("Product of 3 and factor (2) is: " + product);
+    }
+}
