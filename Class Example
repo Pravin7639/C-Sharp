@@ -1,0 +1,43 @@
+using System;
+
+class Person
+{
+    
+    public string Name { get; set; }
+    public int Age { get; set; }
+    public string Address { get; set; }
+
+    // Constructor
+    public Person(string name, int age, string address)
+    {
+        Name = name;
+        Age = age;
+        Address = address;
+    }
+
+    
+    public void DisplayInformation()
+    {
+        Console.WriteLine($"Name: {Name}");
+        Console.WriteLine($"Age: {Age}");
+        Console.WriteLine($"Address: {Address}");
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        // Creating an instance of the Person class
+        Person person1 = new Person("John Doe", 30, "123 Main St");
+
+        // Displaying information about the person
+        person1.DisplayInformation();
+
+        // You can also modify the properties directly
+        person1.Age = 31;
+
+        // Displaying updated information
+        person1.DisplayInformation();
+    }
+}
