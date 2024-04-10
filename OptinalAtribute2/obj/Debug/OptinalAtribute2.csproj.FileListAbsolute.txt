@@ -1,0 +1,7 @@
+C:\Users\DELL\source\repos\SAM\OptinalAtribute2\bin\Debug\OptinalAtribute2.exe.config
+C:\Users\DELL\source\repos\SAM\OptinalAtribute2\bin\Debug\OptinalAtribute2.exe
+C:\Users\DELL\source\repos\SAM\OptinalAtribute2\bin\Debug\OptinalAtribute2.pdb
+C:\Users\DELL\source\repos\SAM\OptinalAtribute2\obj\Debug\OptinalAtribute2.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\SAM\OptinalAtribute2\obj\Debug\OptinalAtribute2.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\SAM\OptinalAtribute2\obj\Debug\OptinalAtribute2.exe
+C:\Users\DELL\source\repos\SAM\OptinalAtribute2\obj\Debug\OptinalAtribute2.pdb
